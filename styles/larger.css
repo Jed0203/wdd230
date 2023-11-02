@@ -1,0 +1,14 @@
+/* This CSS is for the base view (mobile) */
+body {
+    font-size: 16px;
+}
+
+/* Add media query for larger views */
+@media (min-width: 768px) {
+    /* This CSS will apply to screens with a minimum width of 768px */
+    body {
+        font-size: 18px; /* Increase font size for larger views */
+    }
+
+    /* Add other styles for larger views here */
+}

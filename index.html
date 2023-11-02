@@ -1,0 +1,62 @@
+<!DOCTYPE html> <!-- Required document type definition -->
+<html lang="en">  <!-- HTML tag with language attribute (in this case, set to English) -->
+<head>
+    <!-- The head tag contains metadata and links to external resources -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jed Chang - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development by Jed Chang. Explore this course assignment portal for more information and resources."> <!-- Meta description element for page description -->
+    <meta name="author" content="Jed Chang"> <!-- Meta author element for the author's name -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Montserrat:400,700&display=swap" />
+    <link rel="stylesheet" href="styles/base.css">
+</head>
+
+<body>
+    <header class = "header">
+        <!-- Header content goes here, such as the website logo, site title, or navigation links -->
+        <h1>Jed Chang</h1>
+        <img class = "profile-picture" src="images/Jed's pic.jpeg" alt="Jed profile picture">
+    </header>
+
+    <nav>
+        <!-- Navigation menu or links can go here -->
+        <ul>
+            <li><a href="#" class ="active">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Site Plan</a></li>
+            <li><a href="#">Form</a></li>
+        </ul>
+    </nav>
+
+    <main class = "main">
+        <h2>WDD 230: Web Frontend Development</h2>
+    
+        <section class="card">
+            <h3>Learning Activities</h3>
+            <ul>
+                <!-- List items for learning activities -->
+                <li><a href="#">Week 01: </a></li>
+                <li><a href="#">Week 02:</a></li>
+                <li><a href="#">Week 03:</a></li>
+                <!-- Add more learning activities here -->
+            </ul>
+        </section>
+    
+        <section class="card">
+            <h3>Information</h3>
+            <!-- Content for the "Information" section goes here -->
+        </section>
+    </main>
+    
+
+    <footer class = "footer">
+        <p>
+            &copy; <span id="currentYear"></span> Jed Chang Taiwan
+            <!-- You can add an optional flag here -->
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="getDates.js"></script>
+</body>
+
+</html>
