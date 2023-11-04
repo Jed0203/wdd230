@@ -1,14 +1,12 @@
-/* This CSS is for the base view (mobile) */
-body {
-    font-size: 16px;
-}
-
-/* Add media query for larger views */
-@media (min-width: 768px) {
-    /* This CSS will apply to screens with a minimum width of 768px */
-    body {
-        font-size: 18px; /* Increase font size for larger views */
+@media (min-width: 64em) {
+    body,
+    header,
+    main,
+    footer {
+      width: 730px;
     }
-
-    /* Add other styles for larger views here */
-}
+  
+    header {
+      grid-template-rows: repeat(2, 90px);
+    }
+  }
