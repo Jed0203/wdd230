@@ -76,7 +76,7 @@ nav {
 }
 
 .active::before {
-	content: "📍 ";
+	content: "📍";
 }
 
 .stuff {
