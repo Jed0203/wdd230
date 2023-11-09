@@ -16,10 +16,10 @@ button.addEventListener("click", () => {
       deleteButton.addEventListener("click", () => {
         list.removeChild(li);
         input.focus();
-  
+        // Clear the input field
         input.value = "";
       });
-      // Clear the input field
+    // Clear the input field
     input.value = "";
     } else {
       input.focus();
