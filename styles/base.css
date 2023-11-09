@@ -66,6 +66,21 @@ nav a:hover {
     padding: 1rem;
 }
 
+#mode {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 3rem;
+	cursor: pointer;
+	font-size: 1.5rem;
+}
+
+.dark-mode {
+	background-color: #000;
+	color: #fff;
+	border-color: #eee; 
+}
+
 .footer {
     background-color: #114c50;
     color: #ffffff;
