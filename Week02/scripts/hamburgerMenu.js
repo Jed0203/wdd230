@@ -4,5 +4,5 @@ const hambutton = document.querySelector('#menu');
 
 hambutton.addEventListener('click', () => {
 	navigation.classList.toggle('open');
-	hamButton.classList.toggle('open');
+	hambutton.classList.toggle('open');
 });
