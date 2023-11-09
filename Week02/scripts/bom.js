@@ -7,7 +7,7 @@ button.addEventListener("click", () => {
       const li = document.createElement("li");
       const deleteButton = document.createElement("button");
   
-      newLi.textContent = input.value;
+      li.textContent = input.value;
       deleteButton.textContent = "❌";
   
       li.append(deleteButton);
@@ -16,7 +16,6 @@ button.addEventListener("click", () => {
       deleteButton.addEventListener("click", () => {
         list.removeChild(li);
         input.focus();
-        // Clear the input field
         input.value = "";
       });
     // Clear the input field
