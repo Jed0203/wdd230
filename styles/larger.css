@@ -1,4 +1,4 @@
-@media (min-width: 64em) {
+@media (min-width: 70em) {
     body,
     header,
     main,
@@ -8,5 +8,18 @@
   
     header {
       grid-template-rows: repeat(2, 90px);
+    }
+
+    #menu {
+      display: none; /* hide hamburger button */
+    }
+  
+    .navigation {
+      flex-direction: row;
+    }
+  
+    .navigation li {
+      display: block;
+      flex: 1 1 100%;
     }
   }
