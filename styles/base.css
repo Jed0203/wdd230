@@ -1,35 +1,51 @@
 /* Typography */
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
 }
 
-body{
-    margin: .5rem;
-    padding: .5rem;
-    font-family: 'Roboto', Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    background-color: #D4AC78;
+body {
+    font-family: 'Dosis', sans-serif;
+    
 }
+/*HEADER*/
 
-.header{
-    display: flex;
+header {
     background-color: #114c50;
-    color: #ffffff;
-	flex-flow: column;
-	align-items: center;
-	justify-content: center;
-	padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    justify-content: space-evenly;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.2rem;
+}
+
+header button {
+    background-color: #333333;
+    color: #EDAE1D;
+    padding: 0.5rem;
+    border-radius: 25%;
+    box-shadow: 2px 2px 1px 1px rgba(0, 0, 255, .2);
+    width: 3rem;
+    height: 3rem;
+}
+
+header button:hover {
+    box-shadow: none;
+    cursor: pointer;
 }
 
 .profile-picture {
-    align-items: left;
+	border-radius: 10px;
+	align-items: left;
 	justify-content: left;
     box-shadow: 3px 5px 32px 8px rgba(0,0,0,0.36);
     width: 100px; /* Set the desired width */
     height: auto; /* Let the height adjust to maintain aspect ratio */
 }
+
 
 h1 {
 	font-size: 2rem;
@@ -56,6 +72,7 @@ h1 {
 }
 
 nav {
+	display: none;
 	background-color: #36454f;
 	text-align: center;
 	box-shadow: 0 2px 15px gray;
@@ -82,13 +99,10 @@ nav a:hover {
 }
 
 /* when the button is clicked - the open class is toggle (added/removed) and accounted for here */
-.open li {
-	display: block;
-	width: 100%;
-}
-.open li a {
+.open {
 	display: block;
 }
+
 
 .active::before {
 	content: "📍 ";
@@ -108,11 +122,11 @@ nav a:hover {
 	font-size: 1.5rem;
 }
 
-.dark-mode {
+/* .dark-mode {
 	background-color: #000;
 	color: #fff;
 	border-color: #eee; 
-}
+} */
 
 .footer {
     background-color: #114c50;

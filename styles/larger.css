@@ -1,25 +1,42 @@
-@media (min-width: 70em) {
-    body,
-    header,
-    main,
-    footer {
-      width: 730px;
-    }
-  
-    header {
-      grid-template-rows: repeat(2, 90px);
-    }
+@media (min-width: 700px) {
+  body {
+    font-size: 1.5rem;
+}
 
-    #menu {
-      display: none; /* hide hamburger button */
-    }
-  
-    .navigation {
-      flex-direction: row;
-    }
-  
-    .navigation li {
-      display: block;
-      flex: 1 1 100%;
-    }
+
+nav {
+  display: block;
+}
+
+nav ol {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+header #menu {
+display: none;
+}
+
+main {
+grid-template-columns: 0.8fr auto;
+}
+
+.learning {
+grid-row: 2/3;
+
+}
+.information {
+grid-row: 2/3;
+}
+
+main h2 {
+text-align: left;
+font-size: 1.5rem;
+}
+
+
+#temple-name {
+left: 700px;
+}
   }

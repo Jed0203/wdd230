@@ -23,10 +23,10 @@ modeButton.addEventListener("click", () => {
 });
 
 // Store the selected elements that we are going to use. 
-const navigation = document.querySelector('.navigation');
-const hambutton = document.querySelector('#menu');
+const button = document.querySelector("#menu");
+const nav = document.querySelector("nav");
 
-hambutton.addEventListener('click', () => {
-	navigation.classList.toggle('open');
-	hambutton.classList.toggle('open');
+button.addEventListener("click", () => {
+  nav.classList.toggle("open");
+  button.classList.toggle("open");
 });
