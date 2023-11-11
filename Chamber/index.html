@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Home Page - Chamber of Commerce Nantou">
+    <meta name="author" content="Jed Chang">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta property="og:url"          content="https://jed0203.github.io/wdd230/chamber/">
+    <meta property="og:title"        content="Nantou CHAMBER OF COMMERCE">
+    <meta property="og:description"  content="Nantou Chamber of Commerce Home Page for WDD230 Jed Chang">
+    <meta property="og:type" content="website">
+    <meta property="og:image"        content="https://www.peru.travel/peru360/imagenes/preview/vista-panoramica-del-malecon-de-la-marina.jpg">
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://fonts.googleapis.com/css2?family=Graduate&family=Merriweather:ital,wght@0,400;1,900&family=Noticia+Text:ital@0;1&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    
+    
+    <title>Home Page Nantou Chamber Of Commerce</title>
+</head>
+<body>
+    
+    <header>
+        
+        <img src="images/logo.png" alt="logo">
+        <button id="menu"></button>
+        
+    </header>
+    <nav>
+        <ol>
+            <li><a href="../index.html">Home</a></li>
+            <!-- <li><a href="discover.html">Discover</a></li> -->
+            <li><a href="./week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="join.html">Join</a></li>
+            <!-- <li><a href="directory.html">Directory</a></li> -->
+        </ol>
+    </nav>
+    <main>
+
+        <div id="hero-img-container">
+            
+            <img src="images/lima.webp" alt="lima Malecon">
+            <h1>Nantou, Taiwan - Chamber of Commerce</h1>
+            <button id="join-button">JOIN THE CHAMBER</button>
+        </div>
+
+        <section id="join">
+            <div class="section-header">
+                <h2>Join</h2>
+            <i class="bi bi-person-fill-add icon"></i>
+            </div>
+            <p>Join the Nantou Chamber of Commerce and enjoy all the benefits it offers you by being a part of it. We look forward to seeing you</p>
+            <a href="join.html">Join Now</a>
+
+       </section>
+        <section id="weather">
+            <div class="section-header">
+                <h2>weather</h2>
+                <i class="bi bi-brightness-high-fill icon"></i>
+            </div>
+            <div class="weather-info-container">
+                <p>Current temperature in Nantou: <span id="current-temp"></span></p>
+                <figure>
+                    <img id="weather-icon" src="" alt="">
+                    <figcaption></figcaption>
+                </figure>
+
+                <p>3 days Forecast</p>
+                <div id="three-days-forecast">
+
+                </div>
+            </div>
+            
+        </section>
+
+        <section id="recent-news">
+            <div class="section-header"><h2>news</h2>
+            <i class="bi bi-newspaper icon"></i>
+            </div>
+
+            <div class="new">
+                <h3>Nantou Chamber of Commerce Welcomes New Members</h3>
+                <p>We're delighted to announce the addition of several new members to the Nantou Chamber of Commerce family. These businesses bring fresh perspectives and opportunities to our community. </p>
+            </div>
+            <div class="new">
+                <h3>Partners with Local Schools for Workforce Development</h3>
+                <p>The Nantou Chamber of Commerce is thrilled to announce a new partnership with local schools to enhance workforce development in our city. We're committed to supporting educational initiatives that prepare our youth for successful careers.</p>
+            </div>
+            <div class="new">
+                <h3>Great news for local entrepreneurs!</h3>
+                <p> The Nantou Chamber of Commerce is proud to introduce a new grant program aimed at boosting small businesses in our city. If you're looking for financial assistance to kickstart or expand your venture.</p>
+            </div>
+            
+
+
+        </section>
+
+
+        <section id="events">
+            <div class="section-header"><h2>Events</h2>
+                <i class="bi bi-calendar3 icon"></i>
+            </div>
+            <div class="event">
+                <a href="#">Networking Mixer</a>
+                <p>Join us for an evening of networking and collaboration! Connect with fellow members and expand your business horizons.</p>
+            </div>
+            <div class="event">
+                <a href="#">Business Workshoprh3</a>
+                <p>Unlock the secrets to business success at our exclusive workshop. Learn from industry experts, gain valuable insights, and take your business to the next level.</p>
+            </div>
+            
+        </section>
+
+        <aside>
+            <div class="section-header"><h2>spotlights</h2>
+                <i class="bi bi-exclamation-triangle-fill icon"></i>
+            </div>
+            
+            <section class="spotlights" id="spotlights"></section>
+            
+        </aside>
+    </main>
+    <div id="last-visit"></div>
+    <footer>
+        
+            <p>&copy;<span id="year"></span>&bull; Jed Chang - Taiwan</p>
+            <p  > last Modification: <span id="lastModified"></span></p>
+            <p>Jed Chamber Of Commer - 208-227-3164</p>
+            <p>Web Site Made by Jed Chang - WDD230</p>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
