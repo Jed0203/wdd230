@@ -30,8 +30,11 @@ header #menu:hover {
     cursor: pointer;
 }
 header #menu::before {
-	content: "☰";
-    
+	content: "☰";   
+}
+
+#menu.open::before {
+	content: "❎";
 }
 /*NAV*/
 nav {
@@ -133,7 +136,7 @@ h1 {
 
 #join a {
     color: white;
-    background-color: #E4112A;
+    background-color: #11e446;
     border-radius: 10px;
     padding: 0.2rem;
     cursor: pointer;
