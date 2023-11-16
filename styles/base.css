@@ -108,6 +108,21 @@ nav a:hover {
 	content: "📍 ";
 }
 
+#hero{
+	position: relative;
+}
+
+#temple-name {
+    background-color: #333333;
+    color: #fff;
+    font-size: 2rem;
+    width: fit-content;
+    border: 2px solid #fff;
+    position: absolute;
+    bottom: 50px;
+    left: 175px;
+}
+
 
 .main {
     padding: 1rem;
