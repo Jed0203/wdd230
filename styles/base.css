@@ -114,7 +114,7 @@ nav li:hover {
 }
 
 #hero{
-	position:static;
+	position:relative;
     width: 100%;
     height: auto;
     /* max-width: 1606px; Adjust the maximum width based on your design */
@@ -125,13 +125,14 @@ img{
     height: auto;
 }
 #temple-name {
+    /* position:absolute; */
     background-color: #333333;
     color: #fff;
     font-size: 2rem;
     width: fit-content;
     border: 2px solid #fff;
     position: absolute;
-    top: 150px;
+    top: 10px;
     left: 10px;
 }
 
