@@ -1,4 +1,4 @@
-@media (min-width: 50.3rem) {
+@media screen and (min-width: 700px) {
   body {
     font-size: 1.5rem;
 }
@@ -36,7 +36,13 @@ font-size: 1.5rem;
 }
 
 
+#hero img {
+        width: 100%; /* Make the image fill the container */
+        height: auto; /* Maintain aspect ratio */
+    }
+
 #temple-name {
-left: 700px;
-}
+       top:200px;
+       left: 10px;
+    }
   }

@@ -69,40 +69,43 @@ h1 {
 	content: "☰";
 }
 
-#menu.open::before {
-	content: "❎";
+nav {display: none}
+
+nav ol{
+    flex-direction: column;
+    text-align: center;    
+    background-color: #333333;
 }
 
-nav {
-	display: none;
-	background-color: #36454f;
-	text-align: center;
-	box-shadow: 0 2px 15px gray;
+
+nav li { 
+    list-style: none;
+    padding: 0.2rem;
+    
 }
-nav ul {
-    display: flex;
-    justify-content: space-around;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
+
+nav  li a {    
+    text-decoration: none;
+    color: #fff;
+    padding: 0.2rem;
 }
-nav ul li a {
-	display: block;
-	color: #fff;
-	text-align: center;
-	padding: 0.75rem;
-	text-decoration: none;
-	font-size: 0.95rem;
-}
-nav a:hover {
-	background-color: #bbb;
-	color: #36454f;
+
+nav li:hover {
+    background-color: #BC8810;
+    color: #FFF8EB;
+    text-decoration: underline;
 }
 
 /* when the button is clicked - the open class is toggle (added/removed) and accounted for here */
-.open {
-	display: block;
+.open {display: block;}
+
+#menu.open {
+	width: 3rm;
+}
+
+#menu.open::before {
+	content: "✖";
+    font-size: 1.5rem;
 }
 
 
@@ -111,9 +114,16 @@ nav a:hover {
 }
 
 #hero{
-	position: relative;
+	position:static;
+    width: 100%;
+    height: auto;
+    /* max-width: 1606px; Adjust the maximum width based on your design */
+    margin: 0 auto; /* Center the hero div */
 }
-
+img{
+    width: 100%;
+    height: auto;
+}
 #temple-name {
     background-color: #333333;
     color: #fff;
@@ -121,8 +131,8 @@ nav a:hover {
     width: fit-content;
     border: 2px solid #fff;
     position: absolute;
-    bottom: 50px;
-    left: 175px;
+    top: 150px;
+    left: 10px;
 }
 
 
