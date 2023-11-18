@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Discover Page - Chamber of Commerce Nantou">
+    <meta name="author" content="Cesar Grados">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta property="og:url"          content="https://ggrados.github.io/wdd230/chamber/">
+    <meta property="og:title"        content="LIMA CHAMBER OF COMMERCE">
+    <meta property="og:description"  content="Lima Chamber of Commerce Home Page for WDD230 Cesar Grados">
+    <meta property="og:type" content="website">
+    <meta property="og:image"        content="https://www.peru.travel/peru360/imagenes/preview/vista-panoramica-del-malecon-de-la-marina.jpg">
+
+
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Graduate&family=Merriweather:ital,wght@0,400;1,900&family=Noticia+Text:ital@0;1&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="icon" href="images/jc.ico">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    
+    <title>Discover - Nantou Chamber of Commerce</title>
+</head>
+<body>
+    
+    <header>
+        
+        <img src="images/Nantou.png" alt="logo">
+        <button id="menu"></button>
+        
+    </header>
+    <nav>
+        <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="./week01/chamber-site-plan.html">Site Plan</a></li>
+        </ol>
+    </nav>
+
+    <main id="discover-main">
+        <h1 id="gallery-title">Discover important Places in Nantou</h1>
+        <div id="container">
+            
+            <div id="gallery">
+                
+                <picture>
+                    <source media="(min-width: 960px)" srcset="images/sun-moon-lake.webp">
+                    <img src="images/sun-moon-lake-small.webp" alt="sun-moon-lake" loading="lazy" width="250" height="150">
+                    <figcaption>Sun Moon Lake</figcaption>
+                </picture>
+                
+                <picture>
+                    <source media="(min-width: 960px)" srcset="images/Nantou-Country-Cluture-Park.webp">
+                    <img src="images/Nantou-Country-Cluture-Park-small.webp" alt="Nantou-Country-Cluture-Park" loading="lazy" width="250" height="150">
+                    <figcaption>Nantou Country Cluture Park</figcaption>
+                </picture>
+                <picture>
+                    <source media="(min-width: 960px)" srcset="images/taiwan-nantou-jiji-station-train.webp">
+                    <img src="images/taiwan-nantou-jiji-station-train-small.webp" alt="train station" loading="lazy" width="250" height="150">
+                    <figcaption>Train station</figcaption>
+                </picture>
+                
+                <picture>
+                    <source media="(min-width: 960px)" srcset="images/street-view.webp">
+                    <img src="images/street-view-small.webp" alt="street" loading="lazy" width="250" height="150">
+                    <figcaption>Street View</figcaption>
+                </picture>
+                
+                <picture>
+                    <source media="(min-width: 960px)" srcset="images/tea-land.webp">
+                    <img src="images/tea-land-small.webp" alt="tea-land" loading="lazy" width="250" height="150">
+                    <figcaption>Tea land</figcaption>
+                </picture>
+                
+                <picture>
+                    <source media="(min-width: 960px)" srcset="images/shopping-mall.webp">
+                    <img src="images/shopping-mall-small.webp" alt="shopping-mall" loading="lazy" width="250" height="150">
+                    <figcaption>Shopping Mall</figcaption>
+                </picture>
+                
+            </div>
+        
+
+
+            <aside id="aside-discover">
+            <section id="demografics"> 
+                <h2>Demografics</h2>
+                <p>Nantou: 479,666 population</p>
+             </section>
+             <section id="economy">
+                <h2>Economy</h2>
+                <p>Nantou's economy depends mainly on agriculture.[12][13] Other important industries in the county are forestry, fishery and animal husbandry. It also includes tourism and manufacturing industries. As of 2016, there are 28,000 registered businesses and 5,205 registered companies in the county with a total capital of NT$5,609 million and NT$80,024 million respectively. </p>
+            </section>
+             <section id="map">
+                <h2>Map</h2>
+                <h2>Nantou Peitian Temple</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d455.94056773278334!2d120.6861383!3d23.9064729!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3469318af446b505%3A0x6fed15f1ca48d888!2sNantou%20Peitian%20Temple!5e0!3m2!1sen!2sus!4v1700275081691!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+            </aside>
+        </div>
+
+    </main>
+
+    <div id="last-visit"></div>
+    <footer>
+        
+            <p>&copy;<span id="year"></span>&bull; Jed Chang - Taiwan</p>
+            <p  > last Modification: <span id="lastModified"></span></p>
+            <p>Jed Chamber Of Commer - (208) 227-3164</p>
+            <p>Web Site Made by Jed Chang - WDD230</p>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+</body>
