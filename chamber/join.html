@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Join Page - Chamber of Commerce Nantou">
+    <meta name="author" content="Cesar Grados">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta property="og:title"        content="Nantou CHAMBER OF COMMERCE">
+    <meta property="og:description"  content="Nantou Chamber of Commerce Join Page for WDD230 Cesar Grados">
+    <meta property="og:type" content="website">
+    <meta property="og:image"        content="https://www.peru.travel/peru360/imagenes/preview/vista-panoramica-del-malecon-de-la-marina.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Graduate&family=Merriweather:ital,wght@0,400;1,900&family=Noticia+Text:ital@0;1&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="icon" href="images/jc.ico">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    
+    <title>Join - Lima Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        <img src="images/Nantou.png" alt="logo">
+        <button id="menu"></button>
+    </header>
+    <nav>
+        <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="../week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+        </ol>
+    </nav>
+    <main id="join-main">
+
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="top">First Name*<input type="text" name="fname" id="fname"></label required >
+                <label class="top">Last Name*<input type="text" name="lname"  id="lname"></label required>
+                <label class="top">Title/Position<input type="text" name="title-position" id="title-position" pattern="^[a-zA-Z\- ]{7,}$"></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Phone Number*<input type="tel" name="telephone"  id="phone" required></label>
+                <label class="top">business/organization's name<input type="text" name="business-organization"  id="business-organization" required></label>
+            </fieldset> 
+
+            <fieldset>
+                <legend>Membership Level</legend>
+                
+                <label class="sbs"><input type="radio" name="membership" value="NP">NP Membership is for non profit organizations and there is no fee.</label>
+                <label class="sbs"><input type="radio" name="membership" value="Bronze">Bronze</label>
+                <label class="sbs"><input type="radio" name="membership" value="Silver">Silver</label>
+                <label class="sbs"><input type="radio" name="membership" value="Gold">Gold</label>
+
+            </fieldset>
+            <fieldset id="description">
+                <legend>business/organization's description</legend>
+                <label class="top">Description <textarea id="w3review" name="w3review" placeholder="Write a description of your company here" rows="4" cols="50"></textarea></label>
+  
+            </fieldset>
+
+
+                <label><input type="hidden" name="timestamp" id="timestamp"></label>
+    
+    
+            <div class="button"><input type="submit" value="Join The Chamber"  class="joinBtn"></div>
+            
+        </form>
+        
+    </main>
+    <div id="last-visit"></div>
+    <footer>
+        
+            <p>&copy;<span id="year"></span>&bull; Jed Chang - Taiwan</p>
+            <p  > last Modification: <span id="lastModified"></span></p>
+            <p>Jed Chang Chamber Of Commer - (385) 152 6521</p>
+            <p>Web Site Made by Jed Chang - WDD230</p>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
