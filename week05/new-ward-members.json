@@ -1,0 +1,33 @@
+{
+    "familyName": "Chang",
+    "move": "11-27-2023",
+    "size": 5,
+    "bischopric-visit": true,
+    "familyMembers": [
+      {
+        "name": "Kengo Chang",
+        "gender": "Male",
+        "birthdate": "11-01-1966"
+      },
+      {
+        "name": "Racehl Kuo",
+        "gender": "Female",
+        "birthdate": "09-04-1968"
+      },
+      {
+        "name": "Jepson Chang",
+        "gender": "Male",
+        "birthdate": "05-27-1996"
+      },
+      {
+        "name": "Jed Chang",
+        "gender": "Male",
+        "birthdate": "02-03-1998"
+      },
+      {
+        "name": "Zion Chang",
+        "gender": "Male",
+        "birthdate": "05-07-2008"
+      }
+    ]
+  }
