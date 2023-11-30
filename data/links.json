@@ -1,0 +1,86 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "url":"week01/chamber-site-plan.html",
+            "title":"Chamber page site plan"
+          }
+        ]
+      },
+      {
+        "week": "Week 2",
+        "links": [
+          {
+            "url":"week02/design.html",
+            "title":"design"
+          },
+          {
+            "url":"week02/hamburgerMenu.html",
+            "title":"HamburgerMenu"
+          },
+          {
+            "url":"week02/bom.html",
+            "title":"BOM_TOP10"
+          }
+        ]
+      },
+
+      {
+        "week": "Week 3",
+        "links": [
+            {
+                "url":"week03/lazyload.html",
+                "title":"lazy load" 
+            },
+            {
+                "url":"week03/reponsive-image.html",
+                "title":"Responsive-Images" 
+            },
+            {
+                "url":"week03/boom.html",
+                "title":"BOM_WebStorage"
+            }
+        ]
+      },
+      {
+        "week": "Week 4",
+        "links": [
+            {
+                "url":"week04/images/CSSCombinator.png",
+                "title":"CSS Combinator" 
+            },
+            {
+                "url":"week04/tablebuild.html",
+                "title":"HTML Table"    
+            },
+            {
+                "url":"form-start/index.html",
+                "title":"Form-start" 
+            }
+        ]
+      },
+      {
+        "week":"Week 5",
+        "links": [
+            {
+                "url":"https://codepen.io/Jed-Chang/pen/bGzjKqv",
+                "title":"Pseudo Elements" 
+            },
+            {
+                "url":"week05/new-ward-members.json",
+                "title":"JSON"  
+            },
+            {
+                "url":"week05/prophets.html",
+                "title":"Prophet API"  
+            },
+            {
+                "url":"week05/weather.html",
+                "title":"Weather API"    
+            }
+        ]
+      }
+    ]
+}
