@@ -1,0 +1,55 @@
+{
+    "companies": [
+        {
+            "name": "Wu Mu Noodle",
+            "address": "No. 5, Gongye N Rd, Nantou City, Nantou County, Taiwan 540",
+            "phoneNumber": "+886(049)92255626",
+            "websiteURL":"https://www.usiglobal.com/tw",
+            "image": "images/wumu.webp",
+            "membershipLevel": "Bronze"
+        },
+        {
+            "name": "USI_Huanhong Technology Co., Ltd.",
+            "address": "No. 141, Lane 351, Section 1, Taiping Rd, Caotun Township, Nantou County, Taiwan 54261",
+            "phoneNumber": "+886(049) 92212700",
+            "websiteURL":"https://www.bembos.com.pe/",
+            "image": "images/scientific.webp",
+            "membershipLevel": "Gold"
+        },
+        {
+            "name": "SunnayHills",
+            "address": "No. 2, Aly. 1066, Bagua Rd., Nantou City, Nantou County Postal Code , Taiwan (ROC)",
+            "phoneNumber": "(+886) 0800292767",
+            "websiteURL":"https://www.sunnyhills.com.tw/index/zh-tw/",
+            "image": "images/sunnyhills.webp",
+            "membershipLevel": "Gold"
+        },
+        {
+            "name": "BoYo Social Welfare Foundation",
+            "address": "No. 131, Ansi Street, Puli Town, Nantou County 545011",
+            "phoneNumber": "+886(049) 2915055",
+            "websiteURL":"https://www.boyo.org.tw/boyoV2/",
+            "image": "images/rboyo.webp",
+            "membershipLevel": "NP"
+        },
+        {
+            "name": "Lalu",
+            "address": " No. 142, Zhongxing Rd, Yuchi Township, Nantou County, Taiwan 555",
+            "phoneNumber": "+886(049) 92855311",
+            "websiteURL":"https://www.thelalu.com.tw/zh-tw",
+            "image": "images/thelalu.webp",
+            "membershipLevel": "Silver",
+            "advertisement": "Located on the Hanbi Peninsula in Sun Moon Lake , with a base area of nearly ten hectares , the entire hotel is divided into three buildings ABC according to different topography and uses."
+        },
+        {
+            "name": "Formosan Aboriginal culture village",
+            "address": "No. 45, Jintain Lane, Dalin Village, Yuchi Township, Nantou County 55544",
+            "phoneNumber": "+886(049) 2895361",
+            "websiteURL":"https://www.nine.com.tw/",
+            "image": "images/ninev.webp",
+            "membershipLevel": "Silver",
+            "advertisement": "Compared with the concept of cultural village as an outdoor museum, this is an indoor museum focusing on collections. Guide Taiwan's aboriginal culture through the collection of cultural relics and audio-visual text introductions."
+        }
+    ]
+
+}

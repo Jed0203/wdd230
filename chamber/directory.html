@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Directory Page - Chamber of Commerce Nantou">
+    <meta name="author" content="Jed Chang">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta property="og:url"          content="https://jed0203.github.io/wdd230/chamber/">
+    <meta property="og:title"        content="NANTOU CHAMBER OF COMMERCE">
+    <meta property="og:description"  content="NANTOU Chamber of Commerce Directory Page for WDD230 Jed Chang">
+    <meta property="og:type" content="website">
+    <meta property="og:image"        content="https://www.peru.travel/peru360/imagenes/preview/vista-panoramica-del-malecon-de-la-marina.jpg">
+
+
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Graduate&family=Merriweather:ital,wght@0,400;1,900&family=Noticia+Text:ital@0;1&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    
+    <title>Directory - Chamber of Commerce</title>
+</head>
+<body>
+    
+    <header>
+        
+        <img src="images/Nantou.png" alt="logo">
+        <button id="menu"></button>
+        
+    </header>
+    <nav>
+        <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="../week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="#">Directory</a></li>
+        </ol>
+    </nav>
+
+
+    <main id="main-directory">
+        <h1 id="directory-title"> Nantou Chamber Of Commerce Directory Page</h1>
+
+        <label class="top">
+            <select name="subject" id="view">
+                <option value="">Select The View &#9662;</option>
+                <option value="grid">GRID</option>
+                <option value="column">COLUMN</option>
+            </select>
+        </label>
+
+
+        <div id="card-container"></div>
+
+
+
+        <div id="last-visit"></div>
+    </main>
+    
+    <footer>
+        
+            <p>&copy;<span id="year"></span>&bull; Jed Chang</p>
+            <p  > last Modification: <span id="lastModified"></span></p>
+            <p>Jed Chamber Of Commer - (208) 227 3164</p>
+            <p>Web Site Made by Jed Chang - WDD230</p>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
