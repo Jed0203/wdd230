@@ -41,7 +41,6 @@ header button:hover {
 
 .profile-picture {
 	border-radius: 10px;
-	align-items: left;
 	justify-content: left;
     box-shadow: 3px 5px 32px 8px rgba(0,0,0,0.36);
     width: 100px; /* Set the desired width */
@@ -100,7 +99,7 @@ nav li:hover {
 .open {display: block;}
 
 #menu.open {
-	width: 3rm;
+	width: 3rem;
 }
 
 #menu.open::before {
